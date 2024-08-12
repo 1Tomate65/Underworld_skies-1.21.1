@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "underworld_skies",
+	"version": "${version}",
+	"name": "underworld_skies",
+	"description": "A mod, with a new Concept of the Underworld",
+	"authors": [
+		"Tomate65"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/underworld_skies/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.tomate65.underworld_skies.Underworld_skies"
+		],
+		"fabric-datagen": [
+			"net.tomate65.underworld_skies.Underworld_skiesDataGenerator"
+		],
+		"client": [
+			"net.tomate65.underworld_skies.UnderWorld_SkiesClient"
+		]
+	},
+	"mixins": [
+		"underworld_skies.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
