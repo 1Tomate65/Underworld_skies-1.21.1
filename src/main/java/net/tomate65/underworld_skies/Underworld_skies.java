@@ -2,6 +2,7 @@ package net.tomate65.underworld_skies;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.tomate65.underworld_skies.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -12,6 +13,7 @@ public class Underworld_skies implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItems.registerModItems();
 
 	}
 }

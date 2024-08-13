@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "underworld_skies:item/orb_of_shadow"
+  }
+}
